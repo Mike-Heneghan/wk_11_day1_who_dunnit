@@ -208,7 +208,9 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+Suspicion: The scenario starts with Mrs Peacock in the conservatory with the Lead Pipe. The change scenario method is called. Murderer becomes Mrs Peacock and rooms becomes dining room. Plot twist is called with Dining Room. Murderer gets changes to Colonel Mustard. Unexpected outcome then called with 'Coloner Mustard'. As the if evaluates to true the murder weapon changes to the 'Candle Stick' The verdict is therefore that the murder weapon was the candle stick.
 
+Actual: Cracked the case!
 #### Episode 9
 
 ```js
@@ -225,7 +227,9 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Suspicion: Murderer is a let type variable with Professor Plum. The if case is met but it is redefined only in the block? Therefore it is not changed.
 
+Actual: Cracked the case!
 ### Extensions
 
 Make up your own episode!
